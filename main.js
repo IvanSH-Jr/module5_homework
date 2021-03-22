@@ -1,4 +1,4 @@
- //1
+ //Задание 1
  /* let inputValue = prompt("Введите значение");
 inputValue = +inputValue;
 console.log(inputValue)
@@ -18,7 +18,7 @@ if( typeof(inputValue) == "number" && !isNaN(inputValue))
     console.log("Вы ввели NaN")
 } 
      */
-//2
+//Задание 2
 /*
 let X = .8
 console.log(typeof(X))
@@ -36,24 +36,24 @@ switch(typeof(X)){
         console.log ("X - undefiend")
 }
 */
-//3
+//Задание 3
 /*
 let inputValue = 'number'
 console.log(inputValue.split('').reverse().join(''))
 */
-//4
+//Задание 4
 /*let min = Math.ceil(0)
 let max = Math.floor(100)
 let X = console.log(Math.floor(Math.random() * (max - min + 1)) + min)*/
 
-//5
+//Задание 5
 /*let someArr = ['stroka', 1, 2 ,3 , 'Stroka']
 console.log(someArr.length)
 for(let i = 0; i < someArr.length; i++){
     console.log(someArr[i])
 }*/
 
-//6
+//Задание 6
 /*let someArr = ['Stroka', 'Stroka', 'Stroka' , 'Stroka' , 'Stroka']
 let check = true
 let firstItem = 'Stroka'
@@ -64,8 +64,8 @@ for( let indexArr = 0; indexArr < someArr.length; indexArr++){
 }
 console.log(check)*/
 
-//7
-let someArr = [1, 2, 'privet', 3, 2, null, 6, 0, '-', ' ', '44' ]
+//Задание 7
+/*let someArr = [1, 2, 'privet', 3, 2, null, 6, 0, '-', ' ', '44' ]
 let evenCounter = 0
 let oddCounter = 0
 
@@ -79,4 +79,16 @@ for(let indexArr = 0; indexArr < someArr.length; indexArr++){
     } 
 }
 console.log('Even = ' + evenCounter)
-console.log('Odd = ' + oddCounter)
+console.log('Odd = ' + oddCounter)*/
+
+//Задание 8
+
+let myMap = new Map([
+    [1, 'uno'],
+    [2, 'dos'],
+    [3, 'tres']
+])
+
+for(let keysName of myMap.keys()){
+    console.log(`Ключ — ${keysName}, значение — ${myMap.get(keysName)} ` )
+}
