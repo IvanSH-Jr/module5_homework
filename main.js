@@ -1,5 +1,6 @@
+ //Убрать комментарий мне показалось лучше, чем создавать 8 файлов
  //Задание 1
- /* let inputValue = prompt("Введите значение");
+  let inputValue = prompt("Введите значение");
 inputValue = +inputValue;
 console.log(inputValue)
 console.log(typeof(inputValue))
@@ -17,7 +18,7 @@ if( typeof(inputValue) == "number" && !isNaN(inputValue))
     } else if(isNaN(inputValue)){
     console.log("Вы ввели NaN")
 } 
-     */
+     
 //Задание 2
 /*
 let X = .8
@@ -82,7 +83,7 @@ console.log('Even = ' + evenCounter)
 console.log('Odd = ' + oddCounter)*/
 
 //Задание 8
-
+/*
 let myMap = new Map([
     [1, 'uno'],
     [2, 'dos'],
@@ -92,3 +93,4 @@ let myMap = new Map([
 for(let keysName of myMap.keys()){
     console.log(`Ключ — ${keysName}, значение — ${myMap.get(keysName)} ` )
 }
+*/
