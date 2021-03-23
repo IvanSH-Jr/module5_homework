@@ -1,6 +1,6 @@
  //Убрать комментарий мне показалось лучше, чем создавать 8 файлов
  //Задание 1
-  let inputValue = prompt("Введите значение");
+let inputValue = prompt("Введите значение");
 inputValue = +inputValue;
 console.log(inputValue)
 console.log(typeof(inputValue))
@@ -18,7 +18,7 @@ if( typeof(inputValue) == "number" && !isNaN(inputValue))
     } else if(isNaN(inputValue)){
     console.log("Вы ввели NaN")
 } 
-     
+    
 //Задание 2
 /*
 let X = .8
@@ -66,16 +66,17 @@ for( let indexArr = 0; indexArr < someArr.length; indexArr++){
 console.log(check)*/
 
 //Задание 7
-/*let someArr = [1, 2, 'privet', 3, 2, null, 6, 0, '-', ' ', '44' ]
+/*let someArr = [1, 2, 'privet', 3, 2, null, 6, 0, '-', '44' ]
 let evenCounter = 0
 let oddCounter = 0
 
 for(let indexArr = 0; indexArr < someArr.length; indexArr++){
     if(someArr[indexArr] % 2 == 0 && someArr[indexArr]!= 0 && someArr[indexArr] != null){
         evenCounter++
-    }else{
+    }else if(someArr[indexArr] % 2 != 0 && someArr[indexArr] != null && !isNaN(someArr[indexArr])){
         oddCounter++
-    }if (someArr[indexArr] === null) {
+    }
+    if (someArr[indexArr] === null) {
         console.log(indexArr + ' Is null')
     } 
 }
